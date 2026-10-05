@@ -1,0 +1,23 @@
+#include <windows.h>
+
+1 24 "app.manifest"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "ProductName", "Safe Claude"
+            VALUE "FileDescription", "Safe Claude"
+            VALUE "CompanyName", "hiopat, wucaz, kierradev"
+            VALUE "FileVersion", "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
