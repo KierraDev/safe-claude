@@ -1,0 +1,5 @@
+build/
+shot.png
+*.exe
+*.obj
+dist/
